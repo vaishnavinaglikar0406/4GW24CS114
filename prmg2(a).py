@@ -8,7 +8,7 @@ def fibonacci(n):
     return 1 
   else: 
     return fibonacci(n-1) + fibonacci(n-2) 
-    n = int(input("Enter a value for N: ")) 
+n = int(input("Enter a value for N: ")) 
 result = fibonacci(n) 
 if result is not None: 
   print("The", n, "th term of the Fibonacci sequence is", result)

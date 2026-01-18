@@ -1,7 +1,7 @@
 import difflib 
 def string_similarity(str1, str2): 
-result =  difflib.SequenceMatcher(a=str1.lower(), b=str2.lower()) 
-return result.ratio() 
+  result =  difflib.SequenceMatcher(a=str1.lower(), b=str2.lower()) 
+  return result.ratio() 
 str1 = 'Python Exercises' or str1 = input("Enter a sentence: ") 
 str2 = 'Python Exercises' or str2 = input("Enter a sentence: ") 
 print("Original string:") 
